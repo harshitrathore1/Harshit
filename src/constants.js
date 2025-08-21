@@ -47,7 +47,7 @@ import acropolisLogo from './assets/education_logo/acropolisLogo.jpg';
 //import profile2 from './assets/work_logo/profile2.jpg';
 import project1 from './assets/work_logo/InsightCV.png';
 import project2 from './assets/work_logo/AICalc.jpeg';
-import project3 from './assets/work_logo/HealthMate.png';
+import project3 from './assets/work_logo/Healthmate.png';
 import project4 from './assets/work_logo/AISummarizer.png';
 import project5 from './assets/work_logo/Tidio-chatbot.png';
 
