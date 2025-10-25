@@ -45,11 +45,12 @@ import acropolisLogo from './assets/education_logo/acropolisLogo.jpg';
 
 // Project Section Logo's
 //import profile2 from './assets/work_logo/profile2.jpg';
-import project1 from './assets/work_logo/InsightCV.png';
-import project2 from './assets/work_logo/AICalc.jpeg';
-import project3 from './assets/work_logo/Healthmate.png';
-import project4 from './assets/work_logo/AISummarizer.png';
-import project5 from './assets/work_logo/Tidio-chatbot.png';
+import project1 from './assets/work_logo/PixelPromptAI.png'
+import project2 from './assets/work_logo/InsightCV.png';
+import project3 from './assets/work_logo/AICalc.jpeg';
+import project4 from './assets/work_logo/Healthmate.png';
+import project5 from './assets/work_logo/AISummarizer.png';
+import project6 from './assets/work_logo/Tidio-chatbot.png';
 
 // import profile2 from './assets/work_logo/profile2.jpg';
 // import profile2 from './assets/work_logo/profile2.jpg';
@@ -117,7 +118,7 @@ export const SkillsInfo = [
   },
 ];
 
-  export const experiences = [
+export const experiences = [
     {
       id: 0,
       img: uoonsLogo,
@@ -168,9 +169,9 @@ export const SkillsInfo = [
     //     "Material UI",
     //   ],
     // },
-  ];
+];
   
-  export const education = [
+export const education = [
     {
       id: 0,
       img: acropolisLogo,
@@ -201,53 +202,73 @@ export const SkillsInfo = [
     
   ];
   
-  export const projects = [
+export const projects = [
     {
       id: 0,
-      title: "InsightCV",
+      title: "PixelPrompt.ai",
       description:
-        "A modern resume and job application tracking platform built with React, TypeScript, and Tailwind CSS. InsightCV allows users to upload resumes, receive AI-powered feedback and ATS-friendly ratings using Claude, and track multiple job applications in one place. It leverages Puter.js for seamless serverless backend operations, React Router for navigation, and Zustand for efficient state management—delivering a smooth and scalable user experience.",
+        "A full-stack AI-driven Software as a Service (SaaS) platform built on the **PERN Stack** (PostgreSQL, Express.js, React.js, Node.js). PixelPrompt.ai provides a diverse suite of premium AI functionalities, including **Article Generation, Image Editing, and a specialized Resume Analyzer**. It features robust **subscription billing** integration and secure user authentication via **Clerk**, utilizing **Neon Serverless PostgreSQL** and deployed on **Vercel** to ensure a scalable and production-ready architecture.",
       image: project1,
-      tags: ["React.js", "TypeScript", "Tailwind CSS", "React Router", "Zustand", "Puter.js", "Claude AI"],
+      tags: [
+        "PERN Stack",
+        "React.js",
+        "Node.js",
+        "PostgreSQL",
+        "Express.js",
+        "Clerk",
+        "Neon DB",
+        "Vercel",
+        "AI/SaaS",
+      ],
       github: "https://github.com/harshitrathore1/InsightCV",
       webapp: "https://puter.com/app/insightcv",
     },
     {
       id: 1,
+      title: "InsightCV",
+      description:
+        "A modern resume and job application tracking platform built with React, TypeScript, and Tailwind CSS. InsightCV allows users to upload resumes, receive AI-powered feedback and ATS-friendly ratings using Claude, and track multiple job applications in one place. It leverages Puter.js for seamless serverless backend operations, React Router for navigation, and Zustand for efficient state management—delivering a smooth and scalable user experience.",
+      image: project2,
+      tags: ["React.js", "TypeScript", "Tailwind CSS", "React Router", "Zustand", "Puter.js", "Claude AI"],
+      github: "https://github.com/harshitrathore1/InsightCV",
+      webapp: "https://puter.com/app/insightcv",
+    },
+    {
+      id: 2,
       title: "VisualMathGenius",
       description:
          "An AI-powered gesture-based math solver that allows users to solve mathematical problems using hand gestures via a webcam. It uses OpenCV and Google's Gemini AI to interpret handwritten-style gestures and provide step-by-step solutions. Built with Python, Django, and CVZone, the project offers a unique hands-free interactive experience for solving math problems.",
-      image: project2,
+      image: project3,
       tags: ["Python", "OpenCV", "Django", "CVZone", "Gemini AI"],
       github: "https://github.com/harshitrathore1/VisualMathGenius",
       webapp: "",
     },
     {
-      id: 2,
+      id: 3,
       title: "HealthMate",
       description:
         "HealthMate is an AI-powered medical chatbot designed to provide users with basic healthcare information and guidance. Built with a simple frontend using HTML, CSS, and JavaScript, and a Flask backend in Python, the chatbot leverages NLP to understand user queries and deliver accurate responses. It offers a clean and intuitive interface, making healthcare support more accessible.",
-      image: project3,
+      image: project4,
       tags: ["HTML", "CSS", "JavaScript", "Python", "Flask", "NLP"],
       github: "https://github.com/harshitrathore1/HealthMate",
       webapp: "",
     },
     {
-      id: 3,
+      id: 4,
       title: "AI Summarizer",
       description:
         "A Chrome extension that uses the Gemini API to generate AI-powered summaries of any webpage in three formats: Detailed, Brief, and Bullet Points. Built with JavaScript and Chrome Extension APIs, it enhances browsing productivity by providing instant content understanding directly within the browser.",
-      image: project4,
+      image: project5,
       tags: ["HTML", "CSS", "JavaScript", "Gemini API"],
       github: "https://github.com/harshitrathore1",
       webapp: "",
     },
     
     {
-      id: 4,
+      id: 5,
       title: "Tidio AI Chatbot",
       description:"An AI-powered customer support chatbot developed using Tidio. Designed to handle FAQs, automate responses, and improve customer engagement with real-time interaction. The bot integrates with website workflows and can be customized for different business needs, providing both efficiency and a seamless user experience.",
-      image: project5,
+      image: project6,
       tags: ["Tidio", "Chatbot", "Automation", "AI"],
       github: "https://github.com/harshitrathore1",
       webapp: "",
